@@ -1,31 +1,4 @@
  
-//  import React, { useContext } from "react";
-// import { AuthContext } from "../../context/AuthContext";
-
-// const Navbars = ({ title }) => {
-//   const { user } = useContext(AuthContext);
-
-//   const getGreeting = () => {
-//     const hour = new Date().getHours();
-
-//     if (hour < 12) return "Good Morning 🌅";
-//     if (hour < 17) return "Good Afternoon ☀️";
-//     if (hour < 20) return "Good Evening 🌆";
-//     return "Good Night 🌙";
-//   };
-
-//   return (
-//     <div className="flex justify-between items-center bg-white shadow px-6 py-4">
-//       <h2 className="text-xl font-semibold">{title}</h2>
-//        <span className="font-medium flex items-center gap-2">
-//   {getGreeting()} <span className="font-semibold">{user?.name}</span>
-// </span>
-
-//     </div>
-//   );
-// };
-
-// export default Navbars;
 
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
