@@ -1,4 +1,6 @@
  
+
+
 import React, { useState } from "react";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
@@ -74,7 +76,6 @@ const SignupForm = () => {
       navigate("/login");
 
     } catch (error) {
-      console.log("Full error:", error.response);  // ← add this
       toast.error(error.response?.data?.message || "Signup Failed");
     } finally {
       setLoading(false);
