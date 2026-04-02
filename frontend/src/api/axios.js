@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://smartcollegemanagementsystem.onrender.com/api",
+  baseURL: "https://smartcollegemanagementsystem.onrender.com",
 });
 
 // Attach JWT automatically
